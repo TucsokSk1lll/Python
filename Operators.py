@@ -21,6 +21,7 @@ while(float(eval(gside1))%1 != 0 or float(eval(gside1)) < 0 or float(eval(gside1
 gside1a = (int(eval(gside1)))
 #print(gside1)
 #print('összeg:',gside1a)
+print()
     
 while(gside2a != gside1a or gside1 == gside2):
     gside2 = ''
@@ -42,7 +43,7 @@ for i in range(0,numbers*2,2):
     print(gside2[i]+' ',end='')
 print('\n')
 
-input('Type anything here if you wanna see the right answer(s):' )
+#input('Type anything here if you wanna see the right answer(s):' )
 
 #SOLVE
 
@@ -92,7 +93,7 @@ for j in range(0,32,2):
 for i in range(len(side1)):
     for j in range(len(side2)):
         if side1[i] == side2[j]:
-            print(aside1[i],'=',aside2[j])
+            print(aside1[i],'=',aside2[j],'     ',int(eval(aside1[i])),'=',int(eval(aside2[j])))
             
             
 #print(side1)  
