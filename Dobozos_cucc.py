@@ -19,4 +19,14 @@ if Doboz > 0:
 		Dobozok.append(Doboz)
 		Doboz = 0
 
-print(Dobozok)
+for i in range(len(Dobozok)):
+    osszesen += Dobozok[i]
+print('2. feladat')
+print('A targyak tomegenek osszege:',osszesen,'kg')
+print('\n')
+print('3. feladat')
+print('A dobozok tartalmanak tomege (kg): ',end='')
+for i in range(len(Dobozok)):
+    print(Dobozok[i],end=' ')
+print('\n')
+print('Szukseges dobozok szama:',len(Dobozok))
